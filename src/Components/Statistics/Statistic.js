@@ -9,7 +9,7 @@ const Statistic = ({ label, value }) => (
 
 Statistic.propTypes = {
   label: PropTypes.string.isRequired,
-  value: PropTypes.number.isRequired
+  value: PropTypes.string.isRequired
 };
 
 export default Statistic;
