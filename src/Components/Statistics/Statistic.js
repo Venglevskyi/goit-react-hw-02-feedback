@@ -2,9 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Statistic = ({ label, value }) => (
-  <p>
-    {label}: {value}
-  </p>
+  <tbody>
+    <tr>
+      <td>{label}</td>
+      <td>{value}</td>
+    </tr>
+  </tbody>
 );
 
 Statistic.propTypes = {
